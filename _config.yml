@@ -28,6 +28,7 @@ github_username:  jmade
 collections:
   - top_group
   - bottom_group
+  - feature_group
 
 collections_dir: my_collections
 

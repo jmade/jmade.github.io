@@ -7,15 +7,9 @@ list_title: Bliggity Blog
 show_excerpts: true
 ---
 
-# Sup?
+# Hello
 
-**Madewell's** the name `writing code` is my **fucking** game!
-
-lolz Im just playin
-
-My name is Justin Madewell and I **Fucking love** creating with code.
-
-I'm what most people call a "good-ole-boy"
+**Madewell's** the name `writing code` is my ***f\*cking*** game!
 
 Some of my best qualities are:
 
@@ -23,10 +17,6 @@ Some of my best qualities are:
 * Doing what I'm told.
 * Not asking questions.
 
-Here are some of my recent projects.
+> "This dudes projects are rad as f*ck!" - ***[close personal friend]***
 
-> "This guys projects are rad!" - ***[close personal friend]***
-
-
-# Projects
-
+> "Id hire him again"- ***[future satisfied customer]***

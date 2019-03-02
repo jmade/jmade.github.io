@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Item 6
-subtitle: 6
-permalink: /item6/
+title: PixelBox
+subtitle: "A box of Pixels!"
+permalink: /pixelbox/
 ---
-
-Coming Soon...
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 

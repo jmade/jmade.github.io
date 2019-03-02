@@ -7,58 +7,30 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <div class="main-continer">
+    {{ content }}
+  </div>
 
-  <div class="featureContainer">
-    <div class="contentContainer">
-      <table class="feature">
-        <tbody>
-          <tr>
-            {% for item in site.top_group %}
-            <td>
-              <a class="page-link" href="{{ item.permalink | relative_url }}">
-                  <div class="featureCell">
-                    <span class="title">
-                      {{ item.title }}
-                    </span>
-                    <br>
-                    <img src="/assets/images/ambilight/icon.png" alt="">
-                    <br>
-                    <span class="subtitle">
-                      {{ item.subtitle }}
-                    </span>
-                  </div>
-                </a>
-            </td>
-            {% endfor %}
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="contentContainer">
-      <table class="feature">
-        <tbody>
-          <tr>
-            {% for item in site.bottom_group %}
-            <td>
-                <a class="page-link" href="{{ item.permalink | relative_url }}">
-                  <div class="featureCell">
-                    <span class="title">
-                      {{ item.title }}
-                    </span>
-                    <br>
-                    <img src="/assets/images/ambilight/icon.png" alt="">
-                    <br>
-                    <span class="subtitle">
-                      {{ item.subtitle }}
-                    </span>
-                  </div>
-                </a>
-            </td>
-            {% endfor %}
-          </tr>
-        </tbody>
-      </table>
+  <br>
+
+  <div class="projects-container">
+    <span class="containter-title">Projects</span>
+    <div class="flex-container">
+      {% for item in site.feature_group %}
+      <a class="page-link" href="{{ item.permalink | relative_url }}">
+          <div class="featureCell">
+            <span class="title">
+              {{ item.title }}
+            </span>
+            <br>
+            <img src="/assets/images{{ item.permalink }}icon.png" alt="">
+            <br>
+            <span class="subtitle">
+              {{ item.subtitle }}
+            </span>
+          </div>
+        </a>
+      {% endfor %}
     </div>
   </div>
 
