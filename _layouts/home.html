@@ -14,7 +14,7 @@ layout: default
   <br>
 
   <div class="projects-container">
-    <span class="containter-title">Projects</span>
+    <div class="containter-title">PROJECTS</div>
     <div class="flex-container">
       {% for item in site.feature_group %}
       <a class="page-link" href="{{ item.permalink | relative_url }}">
@@ -31,12 +31,17 @@ layout: default
           </div>
         </a>
       {% endfor %}
+    <div class="projects-footer">more</div>
     </div>
   </div>
 
   <br>
 
+  
+    
+  
   {%- if site.posts.size > 0 -%}
+  <div class="blog-container">
     <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>
     <ul class="post-list">
       {% for post in site.posts %}
@@ -57,6 +62,7 @@ layout: default
     </ul>
 
     <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
+  <div/>
   {%- endif -%}
 
 </div>

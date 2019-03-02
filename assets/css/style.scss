@@ -10,24 +10,44 @@ a:hover {
 
 .main-continer {
 	padding: 20px;
-	background-color: tan;
+	background-color: silver;
 	border-radius: 20px;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects-container {
-	background-color: #0066cc;
+	background-color: steelblue;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog-container {
+	padding: 20px;
+	background-color: silver;
 	//border: 1px solid lightgray;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .containter-title {
-	padding: 20px;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
 	color: white;
 	line-height: 1.2;
 	font-size: xx-large;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.projects-footer {
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	line-height: 1.2;
+	font-size: medium;
+}
+
 
 .flex-container {
   display: flex;
@@ -40,10 +60,9 @@ a:hover {
 .featureCell  {
 	text-align: center;
 	background: white;
-	width: 220px;
+	width: 300px;
 	min-width: 40%;
  	margin: 10px;
-	//border: 1px solid lightgray;
 	border-radius: 8px;
 	margin: 8px;
 	z-index: 1;
@@ -51,18 +70,22 @@ a:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 .title {
+	padding-top: 12px;
+	padding-bottom: 12px;
 	color: black;
-	//text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
 	text-align: center;
-	line-height: 1.2;
+	line-height: 1.5;
 	font-size: x-large;
 }
 
 .subtitle {
+	padding-top: 12px;
+	padding-bottom: 12px;
 	color: black;
 	text-align: center;
-	line-height: 1.1;
+	line-height: 1.4;
 	font-size: small;
 }
 
