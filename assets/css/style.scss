@@ -1,0 +1,110 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.featureContainer {
+	width:100%;
+	border: 0px;
+}
+
+.contentContainer {
+	width: 100%;
+	border: 0px;
+}
+
+
+
+/*Top Table*/
+table.feature {
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+table.feature td {
+	padding: 8px;
+	width: 33%;
+	height:100%;
+	border: 0px;
+}
+
+table.feature tr {
+	padding: 0px;
+	width:100%;
+	height:100%;
+}
+
+table.feature tfoot {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+table.feature td a {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;	
+	z-index: 10; /* Places the link above everything else in the div */
+	background-color: #FFF; /* Fix to make div clickable in IE */
+	opacity: 0; /* Fix to make div clickable in IE */
+	filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+	text-decoration: none; /* No underlines on the link */
+}
+
+
+.featureCell {
+	text-decoration: none; /* No underlines on the link */
+	text-align: center;
+	background: white;
+	width: 100%;
+	height: auto;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	margin: 8px;
+	z-index: 1;
+	transition: transform 0.3s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Scale up the box */
+.featureCell:hover {
+	z-index: 10;
+  	-webkit-transform: scale(1.1, 1.1);
+  	transform: scale(1.1, 1.1);
+}
+
+
+.title {
+	color: black;
+	//text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+	text-align: center;
+	line-height: 1.2;
+	font-size: x-large;
+}
+
+.subtitle {
+	color: black;
+	text-align: center;
+	line-height: 1.1;
+	font-size: small;
+}
+
+.featureCell img {
+	display: inline;
+	width: 50%;
+	height: auto;
+	border-radius: 8px;
+	border: 1px solid darkgray;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
