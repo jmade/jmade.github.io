@@ -11,14 +11,14 @@ a:hover {
 .main-continer {
 	padding: 20px;
 	background-color: tan;
-	border-radius: 8px;
+	border-radius: 20px;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects-container {
 	background-color: #0066cc;
-	border: 1px solid lightgray;
-	border-radius: 8px;
+	//border: 1px solid lightgray;
+	border-radius: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -43,7 +43,7 @@ a:hover {
 	width: 220px;
 	min-width: 40%;
  	margin: 10px;
-	border: 1px solid lightgray;
+	//border: 1px solid lightgray;
 	border-radius: 8px;
 	margin: 8px;
 	z-index: 1;
@@ -70,8 +70,8 @@ a:hover {
 	display: inline;
 	width: 50%;
 	height: auto;
-	border-radius: 8px;
-	border: 1px solid darkgray;
+	border-radius: 20px;
+	//border: 1px solid darkgray;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

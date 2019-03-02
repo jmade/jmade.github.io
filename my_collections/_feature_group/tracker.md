@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tracker
-subtitle: Tracking GPS and Device Movement.
+subtitle: Location & Device Movement.
 permalink: /tracker/
 ---
 
