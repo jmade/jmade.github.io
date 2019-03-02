@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Ambilight"
-categories: swift
+permalink: /ambilight/
 ---
 # Ambilight
 
