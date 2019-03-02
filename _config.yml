@@ -16,10 +16,8 @@
 title: Justin Madewell
 email: jmade@me.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a software developer. 
-  I write Swift code. make iOS Apps.
-  I live in Indianapolis, Indiana
-  I have two wonderful kids and an Amazing wife.
+  Let's work together
+  contact me today.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jmade
