@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: project
 title: FleetWatcher
 permalink: /fleetwatcher/
 ---
-FleetWatcher Stuff
+
+# FleetWatcher
 
 Coming Soon...

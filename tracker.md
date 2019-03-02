@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: project
 title: Tracker
 permalink: /tracker/
 ---
 
-Tracker app
+# Tracker
+
+Coming soon...

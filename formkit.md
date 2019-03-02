@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: project
 title: FormKit
 permalink: /formkit/
 ---
-FormKit Stuff
+# FormKit
 
 Coming Soon...
