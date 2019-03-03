@@ -77,6 +77,7 @@ a:hover {
 	text-align: center;
 	line-height: 1.5;
 	font-size: x-large;
+	font-weight: bold;
 }
 
 .subtitle {
@@ -108,12 +109,21 @@ a:hover {
 
 
 
-//
+// Project Page
+
 .project-container {
 	padding: 20px;
-	background-color: silver;
+	background-color: whitesmoke;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.badge-bar {
+
+}
+
+.project-image-header {
+	padding: 20px;
 }
 
 

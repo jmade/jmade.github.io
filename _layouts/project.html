@@ -1,8 +1,31 @@
 ---
 layout: default
 ---
+
 <div class="project-container">
-  
+
+	<div class="project-image-header">
+
+		<img src="/assets/images{{ page.permalink }}header.png" max-width="80%" alt="{{ page.title }}">
+
+	</div>
+
+	<br>
+
+  <div class="badge-bar">
+  	<p align="center">
+
+  		{% for badge in page.badges %}
+  			<img src="https://img.shields.io/badge/{{ badge }}.svg"/>
+  		{% endfor %}
+  		<!-- Twitter Badge -->
+  		<a href="https://twitter.com/jmade">
+  			<img src="https://img.shields.io/badge/contact-@jmade-blue.svg?style=flat" alt="Twitter: @jmade" />
+  		</a>
+
+  	<p/>
+  </div>
+
   {{ content }}
 
 </div>
