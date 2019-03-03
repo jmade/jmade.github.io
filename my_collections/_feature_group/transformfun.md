@@ -1,6 +1,6 @@
 ---
 layout: page
 title: TransformFun
-subtitle: Its fun to Transform!
+subtitle: A fun way to learn transforms
 permalink: /transformfun/
 ---

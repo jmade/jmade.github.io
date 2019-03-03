@@ -38,13 +38,18 @@ a:hover {
 	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+
 .projects-footer {
+	background-color: white;
 	padding: 20px;
 	text-align: center;
-	width: 100%;
+	width: 20%;
 	color: white;
 	line-height: 1.2;
-	font-size: medium;
+	font-size: large;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px;
 }
 
 
@@ -141,19 +146,41 @@ a:hover {
 }
 
 
+.md-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+
 .avatar img {
-  vertical-align: middle;
+  align: right;
+  // vertical-align: middle;
   width: 120px;
   height: 120px;
   border-radius: 50%;
 }
-
 
 .avatar-profile {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+
+
+.info-h-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.info-v-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
 
 
 

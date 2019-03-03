@@ -5,13 +5,21 @@ layout: default
 <div class="home">
 
   <div class="main-container">
+
+
+    <div class="avatar"> 
+      <img src="/assets/images/avatar.jpeg" alt="Justin Madewell" align="right"> 
+    </div>
+ 
+
     {{ content }}
+
   </div>
 
   <br>
 
   <div class="projects-container">
-    <div class="containter-title">Projects</div>
+    <div class="containter-title">Recent Projects</div>
     <div class="flex-container">
       {% for item in site.feature_group %}
       <a class="page-link" href="{{ item.permalink | relative_url }}">
@@ -28,10 +36,14 @@ layout: default
           </div>
         </a>
       {% endfor %}
-    <div class="projects-footer">
-      <a class="page-link" href="https:www.github.com/jmade">more</a>
     </div>
+
+    <div class="flex-container">
+     <div class="projects-footer">
+      <a class="page-link" href="https:www.github.com/jmade">More</a>
+     </div>
     </div>
+
   </div>
 
   <br>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FleetWatcher
-subtitle: Track you assets.
+subtitle: Wireless Fleet Management.
 permalink: /fleetwatcher/
 ---
 FleetWatcher app

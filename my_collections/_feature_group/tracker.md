@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Tracker
-subtitle: Location & Device Movement.
+subtitle: Location & Device Tracking.
 permalink: /tracker/
 ---
-
-Cell content here.
