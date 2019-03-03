@@ -2,9 +2,17 @@
 layout: project
 title:  "Ambilight"
 permalink: /ambilight/
+subtitle: "*Control the way you control.*"
+badges: 
+ - Swift-4.2-orange 
+ - Xcode-10.0-blue
+ - iOS-12.0-blue
+ - MIT-license-brightgreen
 
 images:
  - iphone
+
+headerlink: "https://github.com/jmade/Ambilight-iOS"
 ---
 # Ambilight
 

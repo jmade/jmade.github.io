@@ -4,10 +4,17 @@ list_title: Blog
 show_excerpts: true
 ---
 
+![](/assets/images/avatar.jpeg)
+{:.avatar}
+{:.avatar-profile}
+
 # Hello
+
 Welcome to my portfolio.
 
 My name is **Justin Madewell**
+
+
 
 I'm a Software Engineer who specializes in **mobile development**.
 

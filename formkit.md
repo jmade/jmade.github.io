@@ -7,10 +7,13 @@ badges:
  - Swift-4.2-orange 
  - Xcode-10.0-blue
  - iOS-12.0-blue
- - Useful-100%25-green
- - Liscence-MIT-lightsteelblue
- 
- 
+ - Useful-100%25-brightgreen
+ - MIT-license-brightgreen
+images:
+ - iphone-notes
+ - iphone-picker
+ - iphone-properties
+headerlink: "https:www.github.com/jmade/FormKit"
 ---
 
 ## About

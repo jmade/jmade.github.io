@@ -2,18 +2,18 @@
 layout: project
 title: PixelBox
 permalink: /pixelbox/
-subtitle: "***Virtual** Light-Bright with **Physical** display*"
+subtitle: "*Virtual Light-Bright with Physical display*"
 
 badges: 
  - Swift-4.2-orange
  - Xcode-10.0-blue
  - iOS-12.0+-blue
- - Useful-100%25-green
- - Liscence-MIT-lightsteelblue
+ - MIT-license-brightgreen
 
 images:
  - iphone-main
  - iphone-other
+headerlink: "https://github.com/jmade/PixelBox-iOS"
 ---
 # PixelBox
 
