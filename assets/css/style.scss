@@ -10,7 +10,7 @@ a:hover {
 
 .main-continer {
 	padding: 20px;
-	background-color: silver;
+	background-color: whitesmoke;
 	border-radius: 20px;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -124,6 +124,14 @@ a:hover {
 
 .project-image-header {
 	padding: 20px;
+}
+
+
+.project-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 8px;
 }
 
 

@@ -11,7 +11,7 @@ layout: default
   <br>
 
   <div class="projects-container">
-    <div class="containter-title">PROJECTS</div>
+    <div class="containter-title">Projects</div>
     <div class="flex-container">
       {% for item in site.feature_group %}
       <a class="page-link" href="{{ item.permalink | relative_url }}">
@@ -28,7 +28,9 @@ layout: default
           </div>
         </a>
       {% endfor %}
-    <div class="projects-footer">more</div>
+    <div class="projects-footer">
+      <a class="page-link" href="github.com/jmade">more</a>
+    </div>
     </div>
   </div>
 

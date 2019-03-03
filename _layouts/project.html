@@ -5,16 +5,11 @@ layout: default
 <div class="project-container">
 
 	<div class="project-image-header">
-
 		<img src="/assets/images{{ page.permalink }}header.png" max-width="80%" alt="{{ page.title }}">
-
 	</div>
-
 	<br>
-
   <div class="badge-bar">
   	<p align="center">
-
   		{% for badge in page.badges %}
   			<img src="https://img.shields.io/badge/{{ badge }}.svg"/>
   		{% endfor %}
@@ -22,10 +17,21 @@ layout: default
   		<a href="https://twitter.com/jmade">
   			<img src="https://img.shields.io/badge/contact-@jmade-blue.svg?style=flat" alt="Twitter: @jmade" />
   		</a>
-
   	<p/>
   </div>
 
+  <p align="center" text-align="center">{{ page.subtitle | markdownify }}</p>
+
+  <br>
+
+  <!-- Images -->
+
+  <div class="project-image-container">
+  	{% for image in page.images %}
+  	<img src="/assets/images{{ page.permalink image }}{{image}}.png" height="400px">
+  	{% endfor %}
+  </div>
+ 	<br>
   {{ content }}
 
 </div>

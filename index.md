@@ -5,8 +5,12 @@ show_excerpts: true
 ---
 
 # Hello
-Welcome to my Portfolio site.
-My name is Justin Madewell, I'm a Software Engineer who specializes in Mobile Development. I enjoy writing Swift and creating amazing mobile applications.
-I live in Indianapolis, Indiana.
-I have two wonderful kids and an
-Amazing wife.
+Welcome to my portfolio.
+
+My name is **Justin Madewell**
+
+I'm a Software Engineer who specializes in **mobile development**.
+
+I enjoy writing code in `Swift` and working with the iOS-SDK to create amazing mobile applications.
+
+I live in **Indianapolis, Indiana** with my two wonderful boys and my amazing [wife](https://www.instagram.com/mama.madewell/).

@@ -2,14 +2,16 @@
 layout: project
 title: FormKit
 permalink: /formkit/
+subtitle: "*A static Library utilizing the power of `UITableView` to help with building forms with various inputs*"
 badges: 
  - Swift-4.2-orange 
  - Xcode-10.0-blue
- - iOS-12.0-
+ - iOS-12.0-blue
  - Useful-100%25-green
  - Liscence-MIT-lightsteelblue
+ 
+ 
 ---
-*A static Library utilizing the power of `UITableView` to help with building forms with various inputs*
 
 ## About
 

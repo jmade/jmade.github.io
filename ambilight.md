@@ -2,6 +2,9 @@
 layout: project
 title:  "Ambilight"
 permalink: /ambilight/
+
+images:
+ - iphone
 ---
 # Ambilight
 
