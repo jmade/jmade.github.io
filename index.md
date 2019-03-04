@@ -8,10 +8,10 @@ show_excerpts: true
 
 Welcome to my portfolio.
 
-My name is **Justin Madewell**
+My name is **Justin**.
 
-I'm a Software Engineer who specializes in **mobile development**.
+I'm a Software Engineer 👨🏻‍💻
 
-I enjoy writing code in `Swift` and working with the iOS-SDK to create great mobile applications.
+I enjoy writing code in `Swift` and working with the iOS-SDK to create great mobile experiences.
 
 I live in **Indianapolis, Indiana** with my two wonderful boys and amazing [wife](https://www.instagram.com/mama.madewell/).

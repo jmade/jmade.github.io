@@ -18,6 +18,12 @@ headerlink: "https:www.github.com/jmade/FormKit"
 
 ## About
 
-This is a Library created personally form me as a tool to help build something I didnt know about.
+This is a *Static Library* created as tool for a recent project I worked on.
+
+FormKit Uses the [DeepDiff](https://github.com/onmyway133/DeepDiff) library from [onmyway133](https://onmyway133.github.io/) to provide smooth system animations. 
+
+Also uses a **Micro Library** for creating and handling custom presentations 
+
+More content coming...
 
 
